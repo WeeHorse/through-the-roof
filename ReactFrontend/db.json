@@ -1,0 +1,34 @@
+{
+  "auctions": [
+    {
+      "id": 1,
+      "title": "Lorem",
+      "description": "Ipsum",
+      "images": ["image.jpg"],
+      "seller": {
+        "id": 11,
+        "name": "Benda Guitar"
+      },
+      "startPrice": 10,
+      "reserve": 150,
+      "roof": 330,
+      "start": "2022-03-22 14:10",
+      "end": "2022-03-29 15:10"
+    }
+  ],
+  "bids":[
+    {
+      "id": 101,
+      "amount": 50,
+      "bidder": {
+        "name": "Bob Order",
+        "id": 12
+      },
+      "time": "2022-03-22 14:15"
+    }
+  ],
+  "loggedInUser":{
+    "id": 12,
+    "name": "Bob Order"
+  }
+}
