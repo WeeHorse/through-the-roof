@@ -5,6 +5,8 @@ const GlobalContext = createContext();
 export const GlobalProvider = ({ children }) => {
   const [isLoading, setIsLoading] = useState(true);
   const [auctions, setAuctions] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
+  const [searchCategory, setSearchCategory] = useState(["title"]);
 
   useEffect(() => {
     fetchAuctions();
@@ -22,7 +24,11 @@ export const GlobalProvider = ({ children }) => {
     <GlobalContext.Provider
       value={{
         auctions,
-        isLoading
+        isLoading,
+        searchTerm,
+        setSearchTerm,
+        searchCategory,
+        setSearchCategory,
       }}
     >
       {children}

@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Lorem",
       "description": "Ipsum",
-      "images": ["image.jpg"],
+      "images": ["http://dummyimage.com/236x100.png/5fa2dd/ffffff"],
       "seller": {
         "id": 11,
         "name": "Benda Guitar"
@@ -14,9 +14,444 @@
       "roof": 330,
       "start": "2022-03-22 14:10",
       "end": "2022-03-29 15:10"
+    },
+    {
+      "id": 2,
+      "title": "Cotton Wet Mop 16 Oz",
+      "description": "Synchronised zero defect capability",
+      "images": "http://dummyimage.com/236x100.png/5fa2dd/ffffff",
+      "seller": {
+        "id": 2,
+        "name": "Kimberlee Astin"
+      },
+      "startPrice": 800,
+      "reserve": 900,
+      "roof": 1100,
+      "start": "2021-04-18 14:10",
+      "end": "2021-05-09 14:10"
+    },
+    {
+      "id": 3,
+      "title": "Pepper - Red Chili",
+      "description": "Balanced holistic ability",
+      "images": "http://dummyimage.com/158x100.png/ff4444/ffffff",
+      "seller": {
+        "id": 3,
+        "name": "Averell Roblou"
+      },
+      "startPrice": 279,
+      "reserve": 379,
+      "roof": 579,
+      "start": "2021-07-22 14:10",
+      "end": "2021-06-21 14:10"
+    },
+    {
+      "id": 4,
+      "title": "Sprouts - Peppercress",
+      "description": "Devolved motivating knowledge user",
+      "images": "http://dummyimage.com/230x100.png/cc0000/ffffff",
+      "seller": {
+        "id": 4,
+        "name": "Bernie Postlethwaite"
+      },
+      "startPrice": 738,
+      "reserve": 838,
+      "roof": 1038,
+      "start": "2022-01-13 14:10",
+      "end": "2021-09-26 14:10"
+    },
+    {
+      "id": 5,
+      "title": "Wine - Barossa Valley Estate",
+      "description": "Phased object-oriented portal",
+      "images": "http://dummyimage.com/244x100.png/cc0000/ffffff",
+      "seller": {
+        "id": 5,
+        "name": "Josie Prigmore"
+      },
+      "startPrice": 561,
+      "reserve": 661,
+      "roof": 861,
+      "start": "2021-11-01 14:10",
+      "end": "2022-03-08 14:10"
+    },
+    {
+      "id": 6,
+      "title": "Pasta - Fett Alfredo, Single Serve",
+      "description": "Face to face reciprocal project",
+      "images": "http://dummyimage.com/232x100.png/dddddd/000000",
+      "seller": {
+        "id": 6,
+        "name": "Sonja Joriot"
+      },
+      "startPrice": 35,
+      "reserve": 135,
+      "roof": 335,
+      "start": "2021-08-12 14:10",
+      "end": "2021-07-29 14:10"
+    },
+    {
+      "id": 7,
+      "title": "Tart - Lemon",
+      "description": "Focused well-modulated capacity",
+      "images": "http://dummyimage.com/175x100.png/cc0000/ffffff",
+      "seller": {
+        "id": 7,
+        "name": "Briana Downey"
+      },
+      "startPrice": 634,
+      "reserve": 734,
+      "roof": 934,
+      "start": "2021-08-29 14:10",
+      "end": "2021-12-22 14:10"
+    },
+    {
+      "id": 8,
+      "title": "Rum - Mount Gay Eclipes",
+      "description": "Exclusive zero administration archive",
+      "images": "http://dummyimage.com/130x100.png/ff4444/ffffff",
+      "seller": {
+        "id": 8,
+        "name": "Celestyn Ciccoloi"
+      },
+      "startPrice": 53,
+      "reserve": 153,
+      "roof": 353,
+      "start": "2021-09-05 14:10",
+      "end": "2021-05-19 14:10"
+    },
+    {
+      "id": 9,
+      "title": "Soup - Knorr, Chicken Gumbo",
+      "description": "Fundamental systematic knowledge user",
+      "images": "http://dummyimage.com/222x100.png/cc0000/ffffff",
+      "seller": {
+        "id": 9,
+        "name": "Jacky Batsford"
+      },
+      "startPrice": 765,
+      "reserve": 865,
+      "roof": 1065,
+      "start": "2021-07-11 14:10",
+      "end": "2021-07-14 14:10"
+    },
+    {
+      "id": 10,
+      "title": "Cabbage Roll",
+      "description": "Profound tertiary groupware",
+      "images": "http://dummyimage.com/214x100.png/ff4444/ffffff",
+      "seller": {
+        "id": 10,
+        "name": "Issi Loosley"
+      },
+      "startPrice": 789,
+      "reserve": 889,
+      "roof": 1089,
+      "start": "2021-09-01 14:10",
+      "end": "2021-08-27 14:10"
+    },
+    {
+      "id": 11,
+      "title": "Crush - Cream Soda",
+      "description": "Object-based fresh-thinking protocol",
+      "images": "http://dummyimage.com/122x100.png/cc0000/ffffff",
+      "seller": {
+        "id": 11,
+        "name": "Ken Haydon"
+      },
+      "startPrice": 533,
+      "reserve": 633,
+      "roof": 833,
+      "start": "2021-10-23 14:10",
+      "end": "2021-08-25 14:10"
+    },
+    {
+      "id": 12,
+      "title": "Energy Drink Red Bull",
+      "description": "Assimilated contextually-based moratorium",
+      "images": "http://dummyimage.com/102x100.png/cc0000/ffffff",
+      "seller": {
+        "id": 12,
+        "name": "Melessa Mulvenna"
+      },
+      "startPrice": 116,
+      "reserve": 216,
+      "roof": 416,
+      "start": "2021-04-18 14:10",
+      "end": "2022-03-25 14:10"
+    },
+    {
+      "id": 13,
+      "title": "Grapefruit - Pink",
+      "description": "User-friendly demand-driven firmware",
+      "images": "http://dummyimage.com/220x100.png/ff4444/ffffff",
+      "seller": {
+        "id": 13,
+        "name": "Adolf Scarman"
+      },
+      "startPrice": 28,
+      "reserve": 128,
+      "roof": 328,
+      "start": "2021-07-05 14:10",
+      "end": "2021-11-15 14:10"
+    },
+    {
+      "id": 14,
+      "title": "Sauce - White, Mix",
+      "description": "Persistent background framework",
+      "images": "http://dummyimage.com/152x100.png/5fa2dd/ffffff",
+      "seller": {
+        "id": 14,
+        "name": "Norrie Halbeard"
+      },
+      "startPrice": 629,
+      "reserve": 729,
+      "roof": 929,
+      "start": "2021-10-10 14:10",
+      "end": "2022-02-08 14:10"
+    },
+    {
+      "id": 15,
+      "title": "Ecolab Digiclean Mild Fm",
+      "description": "Adaptive client-server website",
+      "images": "http://dummyimage.com/171x100.png/cc0000/ffffff",
+      "seller": {
+        "id": 15,
+        "name": "Wandie Nuccitelli"
+      },
+      "startPrice": 510,
+      "reserve": 610,
+      "roof": 810,
+      "start": "2021-12-08 14:10",
+      "end": "2021-11-15 14:10"
+    },
+    {
+      "id": 16,
+      "title": "Eel - Smoked",
+      "description": "Re-engineered bi-directional solution",
+      "images": "http://dummyimage.com/213x100.png/5fa2dd/ffffff",
+      "seller": {
+        "id": 16,
+        "name": "Meagan Scotting"
+      },
+      "startPrice": 821,
+      "reserve": 921,
+      "roof": 1121,
+      "start": "2021-07-29 14:10",
+      "end": "2021-06-09 14:10"
+    },
+    {
+      "id": 17,
+      "title": "Sugar - Icing",
+      "description": "Grass-roots heuristic pricing structure",
+      "images": "http://dummyimage.com/121x100.png/dddddd/000000",
+      "seller": {
+        "id": 17,
+        "name": "Pattie Loker"
+      },
+      "startPrice": 724,
+      "reserve": 824,
+      "roof": 1024,
+      "start": "2021-07-23 14:10",
+      "end": "2021-09-09 14:10"
+    },
+    {
+      "id": 18,
+      "title": "Drambuie",
+      "description": "Ergonomic intermediate budgetary management",
+      "images": "http://dummyimage.com/154x100.png/cc0000/ffffff",
+      "seller": {
+        "id": 18,
+        "name": "Cristine Empringham"
+      },
+      "startPrice": 616,
+      "reserve": 716,
+      "roof": 916,
+      "start": "2022-02-24 14:10",
+      "end": "2022-02-01 14:10"
+    },
+    {
+      "id": 19,
+      "title": "Containter - 3oz Microwave Rect.",
+      "description": "Switchable attitude-oriented neural-net",
+      "images": "http://dummyimage.com/210x100.png/ff4444/ffffff",
+      "seller": {
+        "id": 19,
+        "name": "Justis Myles"
+      },
+      "startPrice": 199,
+      "reserve": 299,
+      "roof": 499,
+      "start": "2022-03-13 14:10",
+      "end": "2021-09-21 14:10"
+    },
+    {
+      "id": 20,
+      "title": "Jam - Strawberry, 20 Ml Jar",
+      "description": "Switchable encompassing implementation",
+      "images": "http://dummyimage.com/210x100.png/ff4444/ffffff",
+      "seller": {
+        "id": 20,
+        "name": "Meris Dennant"
+      },
+      "startPrice": 977,
+      "reserve": 1077,
+      "roof": 1277,
+      "start": "2021-11-11",
+      "end": "2021-07-02"
+    },
+    {
+      "id": 21,
+      "title": "Chips Potato Salt Vinegar 43g",
+      "description": "Reverse-engineered user-facing concept",
+      "images": "http://dummyimage.com/135x100.png/cc0000/ffffff",
+      "seller": {
+        "id": 21,
+        "name": "Meade Dilworth"
+      },
+      "startPrice": 440,
+      "reserve": 540,
+      "roof": 740,
+      "start": "2021-05-22",
+      "end": "2021-12-31"
+    },
+    {
+      "id": 22,
+      "title": "Yogurt - Blueberry, 175 Gr",
+      "description": "Phased user-facing artificial intelligence",
+      "images": "http://dummyimage.com/212x100.png/5fa2dd/ffffff",
+      "seller": {
+        "id": 22,
+        "name": "Linnea Collens"
+      },
+      "startPrice": 310,
+      "reserve": 410,
+      "roof": 610,
+      "start": "2021-11-18",
+      "end": "2021-09-20"
+    },
+    {
+      "id": 23,
+      "title": "Parasol Pick Stir Stick",
+      "description": "Multi-layered didactic monitoring",
+      "images": "http://dummyimage.com/133x100.png/5fa2dd/ffffff",
+      "seller": {
+        "id": 23,
+        "name": "Art Moir"
+      },
+      "startPrice": 657,
+      "reserve": 757,
+      "roof": 957,
+      "start": "2021-04-15",
+      "end": "2021-04-28"
+    },
+    {
+      "id": 24,
+      "title": "Nantuket Peach Orange",
+      "description": "Seamless contextually-based encryption",
+      "images": "http://dummyimage.com/242x100.png/5fa2dd/ffffff",
+      "seller": {
+        "id": 24,
+        "name": "Chrissy Corington"
+      },
+      "startPrice": 334,
+      "reserve": 434,
+      "roof": 634,
+      "start": "2021-08-18",
+      "end": "2022-03-19"
+    },
+    {
+      "id": 25,
+      "title": "Celery",
+      "description": "Customer-focused 4th generation attitude",
+      "images": "http://dummyimage.com/129x100.png/cc0000/ffffff",
+      "seller": {
+        "id": 25,
+        "name": "Bobbie Antal"
+      },
+      "startPrice": 334,
+      "reserve": 434,
+      "roof": 634,
+      "start": "2022-03-19",
+      "end": "2021-06-17"
+    },
+    {
+      "id": 26,
+      "title": "Numi - Assorted Teas",
+      "description": "Self-enabling reciprocal synergy",
+      "images": "http://dummyimage.com/150x100.png/dddddd/000000",
+      "seller": {
+        "id": 26,
+        "name": "Lou Ching"
+      },
+      "startPrice": 486,
+      "reserve": 586,
+      "roof": 786,
+      "start": "2021-08-18",
+      "end": "2021-04-21"
+    },
+    {
+      "id": 27,
+      "title": "Chinese Foods - Pepper Beef",
+      "description": "Phased mobile project",
+      "images": "http://dummyimage.com/207x100.png/dddddd/000000",
+      "seller": {
+        "id": 27,
+        "name": "Sanderson Duffit"
+      },
+      "startPrice": 155,
+      "reserve": 255,
+      "roof": 455,
+      "start": "2022-02-11",
+      "end": "2021-08-30"
+    },
+    {
+      "id": 28,
+      "title": "Crab - Dungeness, Whole",
+      "description": "Virtual intermediate algorithm",
+      "images": "http://dummyimage.com/111x100.png/dddddd/000000",
+      "seller": {
+        "id": 28,
+        "name": "Kare Footer"
+      },
+      "startPrice": 537,
+      "reserve": 637,
+      "roof": 837,
+      "start": "2021-11-17",
+      "end": "2021-11-07"
+    },
+    {
+      "id": 29,
+      "title": "Tortillas - Flour, 12",
+      "description": "Switchable scalable synergy",
+      "images": "http://dummyimage.com/219x100.png/cc0000/ffffff",
+      "seller": {
+        "id": 29,
+        "name": "Aubrey Ferenczy"
+      },
+      "startPrice": 38,
+      "reserve": 138,
+      "roof": 338,
+      "start": "2021-06-21",
+      "end": "2021-12-23"
+    },
+    {
+      "id": 30,
+      "title": "Sauce - Cranberry",
+      "description": "Multi-tiered full-range ability",
+      "images": "http://dummyimage.com/112x100.png/cc0000/ffffff",
+      "seller": {
+        "id": 30,
+        "name": "Olenka Dillet"
+      },
+      "startPrice": 378,
+      "reserve": 478,
+      "roof": 678,
+      "start": "2021-08-30",
+      "end": "2021-06-18"
     }
   ],
-  "bids":[
+  "bids": [
     {
       "id": 101,
       "amount": 50,
@@ -27,7 +462,7 @@
       "time": "2022-03-22 14:15"
     }
   ],
-  "loggedInUser":{
+  "loggedInUser": {
     "id": 12,
     "name": "Bob Order"
   }
