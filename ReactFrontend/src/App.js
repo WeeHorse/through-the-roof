@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import HomePage from "./components/HomePage";
 import AboutPage from "./components/AboutPage";
 import UserLogin from "./components/UserLogin";
+import UserRegister from "./components/UserRegister";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/login" element={<UserLogin />} />
+            <Route path="/register" element={<UserRegister />} />
           </Routes>
         </div>
       </Router>
