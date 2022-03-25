@@ -6,6 +6,9 @@ function UserLogin() {
   const [errorMessages, setErrorMessages] = useState({});
   const [isSubmitted, setIsSubmitted] = useState(false);
 
+
+  
+  //"database" kommer senare tas emot som json i frontend och skickas till endpoints i backend som skriver till en sqlite databas
   const database = [
     {
       username: "jonas",

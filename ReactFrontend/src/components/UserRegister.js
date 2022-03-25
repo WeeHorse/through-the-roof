@@ -6,17 +6,6 @@ function UserRegister() {
   const [errorMessages, setErrorMessages] = useState({});
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  /*const database = [
-    {
-      username: "jonas",
-      password: "abc123"
-    },
-    {
-      username: "test",
-      password: "abc123"
-    }
-  ];
-*/
   const errors = {
     uname: "user already exists",
   };
@@ -28,6 +17,8 @@ function UserRegister() {
 
     var { uname, pass } = document.forms[0];
 
+
+    //"database" kommer senare tas emot som json i frontend och skickas till endpoints i backend som skriver till en sqlite databas
     const database = [
     {
         username: uname,
