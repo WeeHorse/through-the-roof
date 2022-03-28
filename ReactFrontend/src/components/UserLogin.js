@@ -31,6 +31,28 @@ function UserLogin() {
 
     var { uname, pass } = document.forms[0];
 
+    /* Till att använda sen när vi har endpoints i backend 
+    
+    const data = { username: uname, password: pass };  
+
+      fetch('http://localhost:3000/', {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      })
+      .then(response => response.json())
+      .then(data => {
+        console.log('Success:', data);
+      })
+      .catch((error) => {
+        console.error('Error:', error);
+      }); 
+      
+      */
+
+
     const userData = database.find((user) => user.username === uname.value);
 
     if (userData) {
