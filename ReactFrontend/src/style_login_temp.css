@@ -14,6 +14,7 @@
   input[type="password"] {
     height: 25px;
     border: 1px solid rgba(0, 0, 0, 0.2);
+    
   }
   
   input[type="submit"] {
@@ -39,10 +40,22 @@
     background-color: white;
     padding: 2rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 400px;
+    text-align: left;
+    
+  }
+
+  .register-form {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 400px;
+    text-align: left;
+   
   }
   
   .list-container {
-    display: flex;
+    display: unset;
   }
   
   .error {
@@ -52,12 +65,12 @@
   
   .title {
     font-size: 25px;
-    margin-bottom: 20px;
+    
   }
   
   .input-container {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     gap: 8px;
     margin: 10px;
   }

@@ -96,11 +96,13 @@ function UserLogin() {
   );
 
   return (
-    <div className="user-login">
+    <div className="list-container">
+      <center>
       <div className="login-form">
         <div className="title">Sign In</div>
         {isSubmitted ? <div>User is successfully logged in</div> : renderForm}
       </div>
+      </center>
     </div>
   );
 }

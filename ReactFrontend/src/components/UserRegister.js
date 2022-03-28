@@ -70,11 +70,13 @@ function UserRegister() {
   );
 
   return (
-    <div className="user-register">
+    <div className="list-container">
+      <center>
       <div className="register-form">
         <div className="title">Register new user</div>
         {isSubmitted ? <div>User is successfully created</div> : renderForm}
       </div>
+      </center>
     </div>
   );
 }
