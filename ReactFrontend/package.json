@@ -8,6 +8,8 @@
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "concurrently": "^7.0.0",
+    "cypress": "^9.6.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
     "json-server": "^0.17.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -23,7 +25,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "json-server --watch db.json --port 6001",
-    "dev": "concurrently \"npm run server\" \"npm start\""
+    "dev": "concurrently \"npm run server\" \"npm start\"",
+    "cypress": "npx cypress open"
   },
   "eslintConfig": {
     "extends": [
@@ -42,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }
