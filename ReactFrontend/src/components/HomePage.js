@@ -1,3 +1,4 @@
+import React from "react";
 import AuctionList from "./AuctionList";
 const HomePage = () => {
   return (

@@ -1,3 +1,4 @@
+import React from "react";
 import { useContext } from "react";
 import AuctionComponent from "./AuctionComponent";
 import GlobalContext from "../context/GlobalContext";
