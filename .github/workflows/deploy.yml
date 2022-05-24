@@ -4,7 +4,7 @@ on:
     branches: [ release ]
 jobs:
   deploy:
-    name: "Deploy relase to server"
+    name: "Deploy release to server"
     runs-on: ubuntu-latest
     steps:
       - name: Configure SSH
@@ -27,7 +27,7 @@ jobs:
           SSH_PORT: ${{ secrets.SSH_PORT }}          
 
       - name: Deploy from release (Important read how to link npm for sudoers https://stackoverflow.com/questions/62863080/github-actions-err-bash-line-3-npm-command-not-found )
-        run: ssh dev 'cd /var/www/through-the-roof && git fetch && git reset --hard origin/release && cd ReactFrontend && npm install'
+        run: ssh dev 'cd /var/www/through-the-roof && git fetch && git reset --hard origin/release && cd static-express-site && npm install'
 
       - name: Restart app (Important read how to link pm2 for sudoers https://stackoverflow.com/questions/62863080/github-actions-err-bash-line-3-npm-command-not-found )
         run: ssh dev 'pm2 restart AuctionFrontEnd'        
