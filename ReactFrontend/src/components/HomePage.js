@@ -1,9 +1,7 @@
-import AuctionList from "./AuctionList";
 const HomePage = () => {
   return (
     <div>
-      <h2>Active auctions</h2>
-      <AuctionList />
+      <h2>Active auctions</h2>      
     </div>
   );
 };
