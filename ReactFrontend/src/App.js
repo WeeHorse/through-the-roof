@@ -5,7 +5,6 @@ import HomePage from "./components/HomePage";
 import AboutPage from "./components/AboutPage";
 
 function App() {
-
   return (
     <GlobalProvider>
       <Router>
@@ -22,4 +21,3 @@ function App() {
 }
 
 export default App;
-
