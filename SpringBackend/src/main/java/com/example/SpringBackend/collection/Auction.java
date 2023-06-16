@@ -26,4 +26,5 @@ public class Auction {
     private int roof;
     private String start;
     private String end;
+    private String sellerId;
 }
