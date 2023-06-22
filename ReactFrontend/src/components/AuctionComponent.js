@@ -2,6 +2,9 @@ const AuctionComponent = ({ auction }) => {
   //console.log(auction);
 
   let url = auction.images;
+  if (!auction || !auction.title) {
+    return null; // or display a placeholder/loading state
+  }
   return (
     <div className="card">
       <div>
@@ -24,7 +27,7 @@ const AuctionComponent = ({ auction }) => {
         <ul className="list-group list-group-flush">
           <li className="list-group-item">Start Price: {auction.startPrice}</li>
           <li className="list-group-item">End time: {auction.end}</li>
-          <li className="list-group-item">Seller: {auction.seller.name}</li>
+          
         </ul>
       </div>
     </div>

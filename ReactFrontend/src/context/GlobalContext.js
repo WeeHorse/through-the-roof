@@ -13,11 +13,19 @@ export const GlobalProvider = ({ children }) => {
   }, []);
 
   const fetchAuctions = async () => {
-    const response = await fetch("/auctions");
-    const auctions = await response.json();
-    console.log(auctions);
-    setAuctions(auctions);
-    setIsLoading(false);
+    try {
+      const response = await fetch("http://localhost:8080/auction/getAll");
+      if (!response.ok) {
+        throw new Error("Request failed");
+      }
+      const auctions = await response.json();
+      console.log(auctions);
+      setAuctions(auctions);
+      setIsLoading(false);
+    } catch (error) {
+      console.error(error);
+      // Handle the error state
+    }
   };
 
   return (

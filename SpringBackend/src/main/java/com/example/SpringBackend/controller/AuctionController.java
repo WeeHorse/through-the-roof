@@ -24,6 +24,10 @@ public class AuctionController {
         return auctionService.save(auction);
 
     }
+    @GetMapping("/getAll")
+    public List<Auction> getAllAuctions(){
+        return auctionService.getAllAuctions();
+    }
 
     @GetMapping
     public List<Auction> getAuctionStartWith(@RequestParam("title") String title){

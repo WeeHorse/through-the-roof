@@ -128,5 +128,10 @@ public class AuctionServiceImpl implements AuctionService{
         return null;
     }
 
+    @Override
+    public List<Auction> getAllAuctions() {
+        return auctionRepository.findAll();
+    }
+
 
 }

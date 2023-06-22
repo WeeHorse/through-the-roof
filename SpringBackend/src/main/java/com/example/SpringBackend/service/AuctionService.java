@@ -21,4 +21,6 @@ public interface AuctionService {
     List<Document> getCheapestAuctionByCategory();
 
     List<Document> getAuctionByDate();
+
+    List<Auction> getAllAuctions();
 }

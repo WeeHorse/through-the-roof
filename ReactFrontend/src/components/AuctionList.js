@@ -6,7 +6,6 @@ import ListSearch from "./ListSearch";
 const AuctionList = () => {
   const { auctions, searchTerm, searchCategory } = useContext(GlobalContext);
 
-
   return (
     <div className="auction-list">
       <ListSearch />
@@ -21,7 +20,7 @@ const AuctionList = () => {
           }
         })
         .map((auction) => (
-          <AuctionComponent auction={auction} key={auction.id} />
+          <AuctionComponent auction={auction} key={auction.auctionId} />
         ))}
       <button
         onClick={() => {
@@ -35,4 +34,3 @@ const AuctionList = () => {
 };
 
 export default AuctionList;
-
