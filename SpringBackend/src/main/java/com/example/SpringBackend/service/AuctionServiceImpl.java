@@ -1,6 +1,7 @@
 package com.example.SpringBackend.service;
 
 import com.example.SpringBackend.collection.Auction;
+import com.example.SpringBackend.collection.BidRequest;
 import com.example.SpringBackend.repository.AuctionRepository;
 import org.bson.Document;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -44,6 +45,7 @@ public class AuctionServiceImpl implements AuctionService{
     public void delete(String id) {
         auctionRepository.deleteById(id);
     }
+
 
     @Override
     public List<Auction> getAuctionByPrice(Integer minPrice, Integer maxPrice) {
@@ -131,6 +133,37 @@ public class AuctionServiceImpl implements AuctionService{
     @Override
     public List<Auction> getAllAuctions() {
         return auctionRepository.findAll();
+    }
+
+    @Override
+    public void submitBid(String auctionId, BidRequest bidRequest) {
+        Auction auction = auctionRepository.findById(auctionId)
+                .orElse(null);
+
+        if (auction == null) {
+            throw new RuntimeException("Auction not found");
+        }
+
+
+        if (bidRequest.getBidAmount() <= auction.getCurrentHighestBid()) {
+            throw new IllegalArgumentException("Bid amount must be higher than the current highest bid");
+        }
+
+        // Check if the bid exceeds the roof value
+        if (bidRequest.getBidAmount() > auction.getRoof()) {
+            auction.setStatus("ended"); // Set the status to "ended"
+
+        }
+
+
+        // Update auction with new bid details
+        auction.setCurrentHighestBid(bidRequest.getBidAmount());
+        auction.setHighestBidderId(bidRequest.getBidderId());
+        auctionRepository.save(auction);
+
+
+        
+
     }
 
 

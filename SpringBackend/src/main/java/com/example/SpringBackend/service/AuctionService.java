@@ -1,6 +1,7 @@
 package com.example.SpringBackend.service;
 
 import com.example.SpringBackend.collection.Auction;
+import com.example.SpringBackend.collection.BidRequest;
 import org.bson.Document;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -23,4 +24,6 @@ public interface AuctionService {
     List<Document> getAuctionByDate();
 
     List<Auction> getAllAuctions();
+
+    public void submitBid(String auctionId, BidRequest bidRequest);
 }

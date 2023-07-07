@@ -3,6 +3,7 @@ import { GlobalProvider } from "./context/GlobalContext";
 import Header from "./components/Header";
 import HomePage from "./components/HomePage";
 import AboutPage from "./components/AboutPage";
+import AuctionSellingPage from "./components/AuctionSellingPage";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
+            <Route path="/makeauction" element={<AuctionSellingPage />} />
           </Routes>
         </div>
       </Router>

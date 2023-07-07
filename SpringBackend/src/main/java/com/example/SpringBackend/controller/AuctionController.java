@@ -2,12 +2,14 @@ package com.example.SpringBackend.controller;
 
 
 import com.example.SpringBackend.collection.Auction;
+import com.example.SpringBackend.collection.BidRequest;
 import com.example.SpringBackend.service.AuctionService;
 import org.bson.Document;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -22,8 +24,19 @@ public class AuctionController {
     @PostMapping
     public String save(@RequestBody Auction auction){
         return auctionService.save(auction);
-
     }
+
+    @PostMapping("/{auctionId}/bids")
+    public ResponseEntity<?> submitBid(@PathVariable String auctionId, @RequestBody BidRequest bidRequest) {
+        try {
+            auctionService.submitBid(auctionId, bidRequest);
+            return ResponseEntity.ok("Bid submitted successfully");
+        } catch (Exception e) {
+            return ResponseEntity.badRequest().body("Failed to submit bid: " + e.getMessage());
+        }
+    }
+
+
     @GetMapping("/getAll")
     public List<Auction> getAllAuctions(){
         return auctionService.getAllAuctions();
@@ -40,6 +53,8 @@ public class AuctionController {
         auctionService.delete(id);
 
     }
+
+
 
     @GetMapping("/price")
     public List<Auction>getAuctionByPrice(@RequestParam Integer minPrice,

@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className="header">
       <h1>
-        <FaHouseDamage style={{margin:"1em"}}/>
+        <FaHouseDamage style={{ margin: "1em" }} />
         Through the Roof!
       </h1>
       <div className="header-route">
@@ -13,6 +13,9 @@ const Header = () => {
         </Link>
         <Link className="link" to="/about">
           About
+        </Link>
+        <Link className="link" to="/makeauction">
+          Submit Auction
         </Link>
       </div>
     </header>
